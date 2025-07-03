@@ -29,7 +29,7 @@ export default function Portfolio() {
         </div>
       </nav>
       <Routes>
-        <Route path="/RobertPortfolio" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/interests" element={<Interests />} />
         <Route path="/workexp" element={<Workexp />} />
