@@ -12,7 +12,7 @@ export default function Portfolio() {
     <Router>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">Robert Morgan</Link>
+          <Link className="navbar-brand" to="/RobertPortfolio">Robert Morgan</Link>
           <div className="collapse navbar-collapse justify-content-end">
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
@@ -29,7 +29,7 @@ export default function Portfolio() {
         </div>
       </nav>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/RobertPortfolio" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/interests" element={<Interests />} />
         <Route path="/workexp" element={<Workexp />} />
