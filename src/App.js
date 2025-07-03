@@ -9,7 +9,7 @@ import Home from "./Components/home"
 
 export default function Portfolio() {
   return (
-    <Router>
+    <BrowserRouter basename="/RobertPortfolio">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">Robert Morgan</Link>
@@ -34,6 +34,6 @@ export default function Portfolio() {
         <Route path="/interests" element={<Interests />} />
         <Route path="/workexp" element={<Workexp />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
