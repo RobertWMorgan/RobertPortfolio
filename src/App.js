@@ -12,7 +12,7 @@ export default function Portfolio() {
     <Router>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/RobertPortfolio">Robert Morgan</Link>
+          <Link className="navbar-brand" to="/">Robert Morgan</Link>
           <div className="collapse navbar-collapse justify-content-end">
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
