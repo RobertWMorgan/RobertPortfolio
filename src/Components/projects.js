@@ -12,7 +12,9 @@ const ProjectsList = [
             favorites function, profile page and search/navbar using React and
             Bootstrap.`, link: `https://github.com/RobertWMorgan/Project-3-seeded` },
     { title: `Discord Reminder bot`, description: `Discord bot that reads server events then pings all sign ups a reminder when event is about to start. Uses the discord API`, 
-      link: `https://github.com/RobertWMorgan/DiscordEventsBot`}
+      link: `https://github.com/RobertWMorgan/DiscordEventsBot`},
+    { title: `Game Picker`, description: `Solo project that helps you find a new game to play based on your selected genres. Uses the RAWG API & ReactJS`, link: `https://github.com/RobertWMorgan/gamepicker`},
+    { title: `Levecalc`, description: `Small half day project that helps calculate how much to split profit for FFXIV leve quests `, link: `https://github.com/RobertWMorgan/levecalc`}
   ];
 
 const Projects = () => {
@@ -37,3 +39,4 @@ const Projects = () => {
 
 
   export default Projects
+
